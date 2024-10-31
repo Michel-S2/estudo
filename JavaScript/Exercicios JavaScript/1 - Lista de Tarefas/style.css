@@ -1,0 +1,24 @@
+.pai {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 300px;
+    width: 400px;
+    align-self: center;
+    margin: 0 auto;
+    
+}
+
+
+.dark {
+    background-color: rgb(29, 29, 29);
+    color: rgb(201, 201, 201);
+}
+
+.light {
+    color: black;
+    background-color: white;
+}

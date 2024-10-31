@@ -1,0 +1,346 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins','Arial', 'sans-serif';
+    margin: 0;
+}
+
+.blue {
+    color: #3851b2;
+}
+
+.yellow {
+    color: #dddf62;
+}
+
+.gray {
+    color: #d4d4d4;
+}
+
+.cian {
+    color: #607d8b;
+}
+
+.bg-blue {
+    background-image: url(images/IMG_6954-removebg\ \(3\).png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bg-yellow {
+    background-image: url(images/IMG_6954-removebg\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bg-gray {
+    background-image: url(images/IMG_6954-removebg\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bg-cian {
+    background-image: url(images/IMG_6954-removebg.png); 
+    background-position: center;
+    background-size: cover;
+
+}
+
+.fundo-branco {
+    background-color: #f8f8f8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    width: 30px;
+    cursor: pointer;
+
+}
+
+header .menu-line {
+    height: 3px;
+    background-color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+}
+
+.container .section-left {
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.container .section-right {
+    padding: 0 20px;
+}
+
+section .profession {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+section .info h1 {
+    margin-top: 0;
+    line-height: 55px;
+    margin-bottom: 30px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+section .info .buttons a {
+    display: inline-block;
+    background-color: #3851b2;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 25px;
+    box-shadow: 0px 0px 9px #111;
+    border-radius: 5px;
+}
+
+section .info .buttons a.light {
+    color: black;
+    background-color: white;
+    padding: 15px 5px;
+}
+
+section .info .buttons a:hover {
+    opacity: 0.8;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 20px 40px;
+    font-size: 13px;
+    color: #292929;
+}
+
+footer a {
+    color: #292929;
+}
+
+@media (min-width: 754px) and (max-width: 850px){
+
+    header {
+        color: white;
+        position: initial;
+        background-color: #111;
+        padding: 20px;
+    }
+
+    header .menu-line {
+        background-color: white;
+    }
+
+    .container {
+        grid-template-rows: 1fr 2fr;
+        grid-template-columns: 1fr;
+    }
+
+    .section-left {
+        justify-content: center;
+    }
+
+    .info {
+        text-align: center;
+    }
+
+   section .profession {
+        font-size: 18px;
+    }
+
+    section .info h1 {
+        margin-top: 0px;
+        line-height: 87px;
+        margin-bottom: 10px;
+        font-size: 70px;
+        font-weight: bold;
+    }
+
+    footer {
+        color: white;
+        font-weight: bold;
+        font-size: 11px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    footer a {
+        color: #dddf62;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 463px) and (max-width: 753px){
+    header {
+        color: white;
+        position: initial;
+        background-color: #111;
+        padding: 10px 50px;
+    }
+
+    header .logo {
+        font-size: 17px;
+    }
+
+    header .menu {
+        height: 17px;
+        width: 20px;
+    }
+
+    header .menu-line {
+        background-color: white;
+    }
+
+    .container {
+        grid-template-rows: 1fr 2fr;
+        grid-template-columns: 1fr;
+    }
+
+    .section-left {
+        padding: 0 50px;
+        justify-content: center;
+    }
+
+    .info {
+        text-align: center;
+    }
+
+    section .profession {
+        font-size: 13px;
+    }
+
+    section .info h1 {
+        margin-top: 0px;
+        line-height: 1;
+        margin-bottom: 10px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    section .info .buttons a {
+        font-size: 10px;
+    }
+
+    footer {
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    footer a {
+        color: #dddf62;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 462px){
+    header {
+        color: white;
+        position: initial;
+        background-color: #111;
+        padding: 10px 50px;
+    }
+
+    header .logo {
+        font-size: 17px;
+    }
+
+    header .menu {
+        height: 17px;
+        width: 20px;
+    }
+
+    header .menu-line {
+        background-color: white;
+    }
+
+    .container {
+        grid-template-rows: 1fr 2fr;
+        grid-template-columns: 1fr;
+    }
+
+    .section-left {
+        padding: 0 50px;
+        justify-content: center;
+    }
+
+    .info {
+        text-align: center;
+    }
+
+    section .profession {
+        font-size: 13px;
+    }
+
+    section .info h1 {
+        margin-top: 0px;
+        line-height: 1;
+        margin-bottom: 10px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    section .info .buttons a {
+        font-size: 10px;
+        margin-bottom: 8px;
+        padding: 15px 25px;
+    }
+
+    section .info .buttons a.light {
+        font-size: 10px;
+        padding: 15px 5px;
+    }
+
+
+    footer {
+        color: white;
+        font-weight: bold;
+        font-size: 9px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    footer a {
+        color: #dddf62;
+        font-weight: bold;
+    }
+}

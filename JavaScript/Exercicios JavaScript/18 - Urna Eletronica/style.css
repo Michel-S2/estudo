@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes pisca {
+    0% {opacity: 0.2;}
+    50% {opacity: 1;}
+    100% {opacity: 0.2;}
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.urna {
+    background-color: #dbd5c9;
+    padding: 30px;
+    display: flex;
+}
+
+
+.tela {
+    width: 450px;
+    height: 350px;
+    background: linear-gradient(to right, #e8e8e8, #c1c1c1);
+    border: 2px solid #555;
+    display: flex;
+    flex-direction: column;
+}
+
+.teclado {
+    background-color: #403a3a;
+    margin-left: 30px;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: flex-end;
+
+}
+
+.button-container > div {
+    width: 70px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 #555;
+}
+
+.button-zero {
+    grid-column: 2/4;
+}
+
+
+.button-container .buttonBranco {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+
+
+.button-container .buttonCorrigi {
+    background-color: #f09046;
+    color: black;
+    font-size: 15px;
+}
+
+
+.button-container .buttonConfirm {
+    background-color: #48c079;
+    color: black;
+    width: 90px;
+    height: 50px;
+    font-size: 15px;
+}
+
+
+.divisao1 {
+    flex: 1;
+    display: flex;
+}
+
+.divisao2 {
+    height: 50px;
+    font-size: 13px;
+    color: black;
+    border-top: 2px solid black;
+    padding-left: 10px;
+}
+
+.divisao1-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.divisao1-text1 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.divisao1-text2 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divisao1-text3 {
+    display: flex;
+    height: 50px;
+
+}
+
+.numero {
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px; /*Para alinhar o elemento utiliza-se do tamanho da altura*/
+    font-size: 25px;
+}
+
+.pisca {
+    animation-name: pisca;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.divisao1-text4 {
+    flex: 1;
+    line-height: 30px;
+}
+
+.divisao1-right {
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.divisao1-right-img {
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+.divisao1-right-img img {
+    width: 100%;
+}
+
+.divisao1-right-img.small {
+    width: 80%;
+    font-size: 11px;
+}
+
+
+.aviso-grande {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.aviso-gigante {
+    font-size: 70px;
+    font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
