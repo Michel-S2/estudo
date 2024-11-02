@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+*{
+    color: black;
+}
+
 .capa {
     height: 100vh;
     width: 100%;
@@ -11,6 +15,7 @@ header {
     flex-direction: column;
     align-items: center;
 }
+
 
 .universidade {
     font-weight: bold;
@@ -54,24 +59,44 @@ footer {
 .container {
     margin-left: 10px;
     margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
-.table {
-    width: 40%;
+img {
+    width: 800px;
+}
+
+
+.primeiraPagina {
     text-align: center;
-}
-
-table, th, td {
+    width: 800px;
     border: 1px solid black;
-    border-collapse: collapse;
-    padding: 5px;
-}
-
-.lei {
-    margin-top: 20px;
-}
-
-.five table {
     margin-bottom: 20px;
+
+    >div {
+        text-align: justify;
+        text-indent: 40px;
+        line-height: 25px;
+        padding: 10px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+    }
+}
+
+.segundaPagina {
+    text-align: center;
+    width: 800px;
+    
+
+    >div {
+        text-align: justify;
+        text-indent: 40px;
+        line-height: 25px;
+        padding: 10px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+    }
 }

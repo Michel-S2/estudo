@@ -64,34 +64,49 @@ footer {
 }
 
 .container {
-    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
-.table {
-    width: 90%;
+img {
+    width: 800px;
+}
+
+
+.primeiraPagina {
     text-align: center;
+    width: 800px;
+    height: 100vh;
+
+    >div {
+        text-align: justify;
+        text-indent: 100px;
+        line-height: 25px;
+        padding: 10px;
+        font-family:'Courier New', Courier, monospace ;
+
+    }
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 5px;
-}
+.segundaPagina {
+    text-align: center;
+    width: 800px;
+    
 
-.four {
-    margin-top: 60px;
-}
+    >div {
+        text-align: justify;
+        text-indent: 40px;
+        line-height: 25px;
+        padding: 10px;
+        font-family:'Courier New', Courier, monospace;
 
-.lei {
-    margin-top: 70px;
-}
+        >p {
+            padding-top: 20px;
+        }
 
-.five table {
-    margin-bottom: 50px;
+    }
 }
-
-.tres {
-    margin-top: 100px;
-}
-
