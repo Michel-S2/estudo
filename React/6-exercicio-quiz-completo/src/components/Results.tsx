@@ -1,5 +1,23 @@
-export const Results = () => {
+import { QuestionType } from "@/types/QuestionType"
+
+type Props = {
+    questions: QuestionType[];
+    answers: number[]
+}
+
+
+export const Results = ({ questions, answers } : Props) => {
     return (
-        <div>...</div>
+        <div>
+            {questions.map((item, key) => (
+                <div key={key} className="mb-3">
+                    <div className="font-bold">{key + 1}. {item.question}</div>
+                    <div>
+                        <span>({item.answer === answers[key] ? 'Acertou!' : 'Errou!'}) - </span>
+                        {item.options[item.answer]}
+                    </div>
+                </div>
+            ))}
+        </div>
     )
 }

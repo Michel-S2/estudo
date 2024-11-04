@@ -26,9 +26,12 @@ const Page = () => {
     loadNextQuestion()
   }
 
-  const onClick = () => {
-    return 0;
+  const handleRestartQuiz = () => {
+    setAnswers([]);
+    setCurrentQuestion(0);
+    setShowResult(false);
   }
+
 
   return (
     <div className="w-full h-screen flex justify-center items-center bg-blue-500">
@@ -43,7 +46,7 @@ const Page = () => {
             />
           }
           {showResult &&
-            <Results/>
+            <Results questions={questionList} answers={answers}/>
           }
         </div>
 
@@ -52,9 +55,7 @@ const Page = () => {
             `${currentQuestion + 1} de ${questionList.length} pergunta${questionList.length === 1 ? '' : 's'}`
           }
           {showResult &&
-            <button onClick={() => {setCurrentQuestion(0)
-              loadNextQuestion()
-            }} className="p-3 py-2 rounded-md bg-blue-800 text-white">Reiniciar o Quiz</button>
+            <button onClick={handleRestartQuiz} className="p-3 py-2 rounded-md bg-blue-800 text-white">Reiniciar o Quiz</button>
           }
         </div>
       </div>
