@@ -1,10 +1,11 @@
 import './App.css';
-import { Challenge } from './components/Challenge';
+import { ListRender } from './components/ListRender';
+import { ManageData } from './components/ManageData';
 
 function App() {
   return (
     <div className="App">
-      <Challenge></Challenge>
+      <ListRender></ListRender>
     </div>
   );
 }
