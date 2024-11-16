@@ -1,13 +1,16 @@
+import { useState } from 'react';
 import './App.css';
 import { ListRender } from './components/ListRender';
 import { ManageData } from './components/ManageData';
-import { showUserName } from './components/showUserName';
+import { ShowUserName } from './components/ShowUserName';
+import { CarDetails } from './components/CarDetails';
 
 function App() {
+  const [userName] = useState('Maria')
   return (
     <div className="App">
-      <ListRender></ListRender>
-      <showUserName name="Michel"/>
+      <ShowUserName name={userName}/>
+      <CarDetails modelo='Palio' km={120000} ano={2008}/>
     </div>
   );
 }
