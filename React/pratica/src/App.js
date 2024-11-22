@@ -11,13 +11,14 @@ import { Message } from './components/Message';
 import { TrocaMessage } from './components/TrocaMessage';
 import { UserDetails } from './components/UserDetails';
 import { Timer } from './components/Timer';
+import { MyForm } from './components/MyForm';
 
 function App() {
   
 
   return (
     <div className="App">
-      <CarDetails/>
+      <MyForm/>
     </div>
   );
 }
