@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <MyForm/>
+      <MyForm user={{name: '', email: '', sobre: 'Aqui você digitará um breve resumo sobre você', conta: 'user'}}/>
     </div>
   );
 }

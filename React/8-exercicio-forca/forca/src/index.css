@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: darkorchid;
+  color: white;
+}
+
+button {
+  padding: 0 25px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: 2px solid white;
+  background-color: rgba(38, 38, 206, 0.781);
+  color: white;
+  text-transform: uppercase;
+  border-radius: 25px;
+  transition: .4s;
+}
+
+button:hover {
+  background-color: rgb(22, 22, 189);
+}

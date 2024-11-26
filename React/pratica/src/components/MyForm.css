@@ -24,6 +24,10 @@ label {
     & input {
         width: 15%;
     }
+
+    & textArea {
+        height: 50px;
+    }
 }
 
 input, textarea, select {
