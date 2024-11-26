@@ -1,6 +1,5 @@
 'use client'
 
-
 import { useContext, useState } from "react"
 import { PostContext } from "../context/PostContext"
 
@@ -8,11 +7,11 @@ export const Header = () => {
 
     const [title, setTitle] = useState<string>(''); // Estado para armazenar o título
     const [message, setMessage] = useState<string>(''); // Estado para armazenar a mensagem
-    const postContext = useContext(PostContext); // Usando o contexto
+    const postCtx = useContext(PostContext); // Usando o contexto
 
     const handleAdd = () => {
-        if (title.trim() && message.trim() && postContext) {
-          postContext.addPost(title, message); // Adiciona o post ao contexto
+        if (title && message ) {
+          postCtx?.addPost(title, message)// Adiciona o post ao contexto
           setTitle(''); // Limpa o campo de título
           setMessage(''); // Limpa o campo de mensagem
         }

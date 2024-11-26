@@ -3,18 +3,11 @@ import { PostContext } from "../context/PostContext"
 
 export const Footer = () => {
 
-    const postContext = useContext(PostContext);
-    
-
-    const { posts } = postContext;
+    const postCtx = useContext(PostContext);
 
     return (
         <footer>
-            <ul>
-                {posts.map(post => (
-                    <li key={post.id}></li>
-                ))}
-            </ul>
+            <p>Total de posts <span>{postCtx?.posts.length}</span></p>
         </footer>
     )
 }

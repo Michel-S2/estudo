@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+
+    & .container {
+        
+        width: 80%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+
+        & .home {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+
+            & img {
+                cursor: pointer;
+                width: 40px;
+                height: 40px;
+            }
+            & h2 {
+                cursor: pointer;
+
+                & span {
+                    color: rgba(127, 44, 206, 0.863);
+                }
+            }
+        }
+
+        & nav {
+            width: 30%;
+            height: 100%;
+
+            & ul {
+                list-style: none;
+                display: flex;
+                gap: 30px;
+                justify-content: flex-end;
+                height: 100%;
+                font-size: 1.2em;
+                align-items: center;
+                
+
+                & li {
+                    cursor: pointer;
+
+                }
+
+                & li:hover {
+                    color:rgba(127, 44, 206, 0.863);
+                }
+            }
+        }
+    }
+}
