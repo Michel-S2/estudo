@@ -1,8 +1,10 @@
-section {
+.container {
+    border-top: 1px solid darkorange;
 
     & h2 {
         text-align: center;
-        margin: 100px 0px
+        margin: 100px 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     }
 
@@ -31,8 +33,9 @@ section {
 
             & p {
                 line-height: 24px;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 margin-bottom: 20px;
+                font-size: 20px;
 
                 & span {
                     color: rgba(127, 44, 206, 0.863);

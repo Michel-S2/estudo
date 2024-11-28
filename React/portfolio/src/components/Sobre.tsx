@@ -2,7 +2,7 @@ import "./Sobre.css"
 
 export const Sobre = () => {
     return (
-        <section>
+        <section className="container">
             <h2>Sobre</h2>
             <section>
                 <div>

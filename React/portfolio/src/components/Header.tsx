@@ -1,20 +1,21 @@
 import "./Header.css"
 
 export const Header = () => {
+    const caracter:string = '</>';
+
     return (
         <header>
             <div className="container">
                 <div className="home">
-                    <img src="/images/codigo-html.png" alt="" />
-                    <h2>MICHEL <span>FREITAS</span></h2>
+                    <h2><span className="span">{caracter}</span> MICHEL <span>FREITAS</span></h2>
                 </div>
                 <nav>
                     <a href=""></a>
                     <ul>
-                        <li>Home</li>
-                        <li>Sobre</li>
-                        <li>Projetos</li>
-                        <li>Contato</li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Projetos</a></li>
+                        <li><a href="">Contato</a></li>
                     </ul>
                 </nav>
             </div>

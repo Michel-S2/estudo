@@ -23,6 +23,12 @@ header {
             & h2 {
                 cursor: pointer;
 
+                & .span {
+                    font-size: 30px;
+                    font-family: monospace;
+
+                }
+
                 & span {
                     color: rgba(127, 44, 206, 0.863);
                 }
@@ -32,6 +38,7 @@ header {
         & nav {
             width: 30%;
             height: 100%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
 
             & ul {
                 list-style: none;
@@ -46,6 +53,25 @@ header {
                 & li {
                     cursor: pointer;
 
+
+                    & a {
+                        position: relative;
+                    }
+
+                    & a::after {
+                        content: '';
+                        width: 0%;
+                        background-color: rgba(127, 44, 206, 0.863);
+                        height: 3px;
+                        position: absolute;
+                        bottom: -3px;
+                        left: 0;
+                        transition: .4s ease-in-out;
+                    }
+
+                    & a:hover::after {
+                        width: 100%;
+                    }
                 }
 
                 & li:hover {

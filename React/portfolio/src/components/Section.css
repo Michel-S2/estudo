@@ -1,0 +1,86 @@
+.containerSection {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    & div {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+        & p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+
+        }
+
+        & .h2Name {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 40px;
+
+        }
+
+        & .h2Profissao {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border-right: 10px solid white;
+            font-size: 65px;
+            white-space: nowrap;
+            width: 0;
+            overflow: hidden;
+            animation: mark .8s step-end infinite, write 6s steps(12, end) infinite;
+        }
+        
+
+        
+        }
+
+
+    & nav {
+        border: 1px solid blue;
+        
+
+        & ul {
+            display: flex;
+            gap: 30px;
+
+            & li {
+
+
+                & a {
+
+                    & img {
+                        width: 30px;
+
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
+@keyframes mark {
+    50% {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes write {
+    0%, 20% { 
+        content: "Front-End"; 
+        width: 9ch; /* Tamanho da primeira palavra */
+    }
+    40%, 50% {
+        width: 0; /* Apaga a primeira palavra */
+    }
+    60%, 80% { 
+        content: "Web Developer"; 
+        width: 14ch; /* Tamanho da segunda palavra */
+    }
+    100% {
+        width: 0; /* Apaga a segunda palavra */
+    }
+}
