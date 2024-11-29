@@ -1,11 +1,10 @@
-const pessoa = {
-    nome: 'Michel',
-    sobrenome: 'Freitas',
-    idade: 22,
-    endereco: {
-        rua: 'Av emancipação',
-        numero: 147
-    }
-}
+import TypeIt from "typeit";
 
-console.log(pessoa.nome);
+
+document.addEventListener('DOMContentLoaded',() => {
+    new TypeIt(".animacao", {
+        speed: 200,
+        string: 'Web front end',
+        loop: true
+    }).go()
+})

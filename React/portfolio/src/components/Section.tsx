@@ -1,6 +1,7 @@
 import "./Section.css";
 import { TextTyper } from "./TextTyper";
 import { TypingEffect } from "./TypingEffect";
+import TypeIt from "typeit";
 
 export const Section = () => {
     return (
@@ -9,7 +10,9 @@ export const Section = () => {
                 <p>Olá, eu sou o...</p>
                 <h2 className="h2Name">Michel Freitas</h2>
                 {/* <TextTyper fullText="Web Developer - Front-End"/> */}
-                <TypingEffect/>
+                <div className="efeito">
+                    <TypingEffect/>
+                </div>
             </div>
             <nav>
                 <ul>

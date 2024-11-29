@@ -1,7 +1,6 @@
 .h2Profissao {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-right: 10px solid white;
-    font-size: 65px;
+    font-size: 75px;
     white-space: nowrap;
     display: inline-block;
     position: relative;
@@ -9,15 +8,10 @@
     color: white;
 }
 
-.cursor {
-    border-right: 4px solid white; /* Cursor como uma barra vertical */
-    display: inline-block;
-    animation: blink 0.8s step-end infinite; /* Faz o cursor piscar */
-  }
-  
-  /* Animação de piscar o cursor */
-  @keyframes blink {
-    50% {
-      border-right-color: transparent; /* Deixa o cursor invisível por 50% do tempo */
-    }
-  }
+
+.ti-cursor {
+  width: 37px !important;
+  font-weight: bold !important;
+  font-size: 75px !important;
+  display: inline-block !important;
+}
