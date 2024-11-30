@@ -12,6 +12,7 @@ import { StartScreen } from './components/StartScreen';
 import { Game } from './components/Game';
 import { GameOver } from './components/GameOver';
 
+//Para saber o estado do jogo
 const stage = [
   {id: 1, name: 'start'},
   {id: 2, name: 'game'},
@@ -19,8 +20,8 @@ const stage = [
 ]
 
 function App() {
-  const [gameStage, setGameStage] = useState(stage[0].name);
-  const [words] = useState(wordsList)
+  const [gameStage, setGameStage] = useState(stage[0].name); //Controla o estagio do jogo
+  const [words] = useState(wordsList) //Pega o objeto com as palavras e categoria
 
   const numeroChance = 3
 
