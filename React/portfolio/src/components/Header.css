@@ -107,13 +107,13 @@ header {
                 background-color: #ccc;
 
                 & .sunIcon {
-                    color: #f1c40f;
+                    color: #6b0280;
                     width:17px;
                     stroke-width:1px ;
                 }
 
                 & .moonIcon {
-                    color: #f1c40f;
+                    color: #6b0280;
                     width: 15px;
             
                 }
