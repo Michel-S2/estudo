@@ -14,7 +14,7 @@
         margin: 0 auto;
         display: flex;
         justify-content: center;
-        padding: 0px 20px;
+        padding: 0px 15px;
         gap: 40px;
         border: 1px solid rosybrown;
 
@@ -49,46 +49,6 @@
                 & span {
                     color: rgba(127, 44, 206, 0.863);
                     border-bottom: 2px solid rgba(127, 44, 206, 0.863);
-                }
-            }
-        }
-    }
-}
-
-
-@media (max-width: 800px) {
-    .container {
-        
-    
-        & h2 {
-            
-    
-        }
-    
-        & .section-sobre {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-    
-            & div {
-                height: 325px;
-                width: 350px;
-    
-                & img {
-                    
-                    
-                }
-                
-            }
-            & article {
-                width: 100%;
-    
-                & p {
-                    
-    
-                    & span {
-                        
-                    }
                 }
             }
         }
