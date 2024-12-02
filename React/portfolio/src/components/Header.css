@@ -5,7 +5,8 @@ header {
 
     & .container {
         
-        width: 80%;
+        max-width: 1080px;
+        width: 100%;
         height: 80px;
         display: flex;
         justify-content: space-between;
@@ -30,15 +31,18 @@ header {
                 }
 
                 & span {
-                    color: rgba(127, 44, 206, 0.863);
+                    color: var(--cor-textos);
                 }
             }
         }
 
         & nav {
-            width: 30%;
+            
             height: 100%;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            align-items: center;
+            gap: 40px;
+            display: flex;
+            font-family: var(--font-principal);
 
             & ul {
                 list-style: none;
@@ -76,6 +80,54 @@ header {
 
                 & li:hover {
                     color:rgba(127, 44, 206, 0.863);
+                }
+            }
+
+            & .checkbox {
+                opacity: 0;
+                position: absolute;
+            }
+
+            & .checkbox:checked + label .ball {
+                transform: translateX(24px);
+            }
+
+            & label {
+                display: flex
+;
+                align-items: center;
+                justify-content: space-between;
+                cursor: pointer;
+                border-radius: 50px;
+                padding: 5px;
+                height: 25px;
+                width: 50px;
+                position: relative;
+                transform: scale(1.5);
+                background-color: #ccc;
+
+                & .sunIcon {
+                    color: #f1c40f;
+                    width:17px;
+                    stroke-width:1px ;
+                }
+
+                & .moonIcon {
+                    color: #f1c40f;
+                    width: 15px;
+            
+                }
+
+                & .ball {
+                    background-color: black;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 2px;
+                    left: 2px;
+                    height: 22px;
+                    width: 22px;
+                    transform: translateX(0px);
+                    transition: transform 0.2s linear;
                 }
             }
         }

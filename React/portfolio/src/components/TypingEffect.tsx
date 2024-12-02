@@ -14,10 +14,10 @@ export const TypingEffect = () => {
       cursorSpeed: 600,
      
     })
-    .type('Font-End',  {delay: 1000})
+    .type('Font-End',  {delay: 1400})
     .move(-7, {delay: 200})
     .type('r', {delay: 400})
-    .move(null, { to: "END", instant: true, delay: 500 }).pause(400).delete(9)
+    .move(null, { to: "END", instant: true, delay: 500 }).pause(900).delete(9)
     .type('Web Developer', {delay: 1500})
     
     .go();

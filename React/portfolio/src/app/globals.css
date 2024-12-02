@@ -1,6 +1,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --largura-padrao: 1080px;
+  --cor-textos: rgba(127, 44, 206, 0.863);
+  --font-principal: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
