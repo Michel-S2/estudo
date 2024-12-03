@@ -1,9 +1,11 @@
-.container {
+.container-sobre {
     height: 100vh;
+    margin: 100px 0;
 
-    & h2 {
+    & .sobre {
         text-align: center;
-        margin: 100px 0px;
+        font-size: 2.5em;
+        padding: 100px 0px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     }
@@ -47,8 +49,8 @@
                 font-size: 20px;
 
                 & span {
-                    color: rgba(127, 44, 206, 0.863);
-                    border-bottom: 2px solid rgba(127, 44, 206, 0.863);
+                    color: var(--cor-principal);
+                    border-bottom: 2px solid var(--cor-principal);
                 }
             }
         }
@@ -57,7 +59,7 @@
 
 
 @media (max-width: 800px) {
-    .container {
+    .container-sobre {
         
     
         & h2 {
@@ -71,8 +73,8 @@
             align-items: center;
     
             & div {
-                height: 325px;
-                width: 350px;
+                max-width: 350px;
+                width: 100%;
     
                 & img {
                     

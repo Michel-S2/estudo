@@ -38,14 +38,34 @@
 
             & li {
 
-
                 & a {
 
+                    & .linkedin-icon, .github-icon, .insta-icon {
+                        font-size: 30px;
+                        color: var(--cor-principal);
+                        width: 40px;
+                        background: transparent;
+                        height: 40px;
+
+                    }
+
+                    & .linkedin-icon:hover, .github-icon:hover, .insta-icon:hover {
+                        transform: scale(1.2)translateY(-5px);
+                        box-shadow: 0 0 50px var(--cor-principal);
+                        
+                        
+                    }
+
+                    & .linkedin-icon, .github-icon, .insta-icon {
+
+                    }
+
                     & img {
-                        width: 30px;
+                        
 
                     }
                 }
+
             }
         }
     }

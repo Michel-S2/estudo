@@ -6,6 +6,7 @@ import { Section } from "@/components/Section";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { Education } from "@/components/Education";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Header/>
       <Section/>
       <Sobre/>
+      <Education/>
     </div>
   )
 }

@@ -1,9 +1,10 @@
+import { Education } from "./Education"
 import "./Sobre.css"
 
 export const Sobre = () => {
     return (
-        <section className="container">
-            <h2>Sobre</h2>
+        <section className="container-sobre">
+            <h2 className="sobre">Sobre</h2>
             <section className="section-sobre">
                 <div className="imagem-michel">
                     {/* <img src="/images/michel.jpg" alt="" /> */}

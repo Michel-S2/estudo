@@ -1,8 +1,10 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --largura-padrao: 1080px;
-  --cor-textos: rgba(127, 44, 206, 0.863);
+  --bg-color-white: #ffffff;
+  --foreground: #080808;
+  --bg-color-black: #080808;
+  --second-bg-color: #131313;
+  --largura-padrao: 1400px;
+  --cor-principal: rgba(127, 44, 206, 0.863);
   --font-principal: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -19,6 +21,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: var(--bg-color-black);
 }
 
 body {
