@@ -1,14 +1,20 @@
+"use client"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap, faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 import "./Education.css"
+import { Animacao } from './Animacao';
 
 export const Education = () => {
+    const ref = Animacao('hidden', 'fade-in')
+    const ref2 = Animacao('hidden', 'fade-in')
+    const ref3 = Animacao('hidden', 'fade-in')
+    const ref4 = Animacao('hidden', 'fade-in')
     return (
         <article className='container-education'>
             <h2 className='educacao'><FontAwesomeIcon icon={faGraduationCap} className='icon-graduation'/> Educação</h2>
 
             <section className='timeline-itens'>
-                <div className="timeline-item">
+                <div ref={ref} className="hidden timeline-item">
                     <div className="timeline-linha"></div>
                     <div className="timeline-content">
                         <small className='timeline-date'><FontAwesomeIcon icon={faCalendarDays}/> 2018 - 2020</small>
@@ -17,7 +23,7 @@ export const Education = () => {
                     </div>
                 </div>
 
-                <div className="timeline-item">
+                <div ref={ref2} className="hidden timeline-item">
                     <div className="timeline-linha"></div>
                     <div className="timeline-content">
                         <small className='timeline-date'><FontAwesomeIcon icon={faCalendarDays}/> 2021 - 2023</small>
@@ -26,7 +32,7 @@ export const Education = () => {
                     </div>
                 </div>
 
-                <div className="timeline-item">
+                <div ref={ref3} className="hidden timeline-item">
                     <div className="timeline-linha"></div>
                     <div className="timeline-content">
                         <small className='timeline-date'><FontAwesomeIcon icon={faCalendarDays}/> 2024 </small>
@@ -35,7 +41,7 @@ export const Education = () => {
                     </div>
                 </div>
 
-                <div className="timeline-item">
+                <div ref={ref4} className="hidden timeline-item">
                     <div className="timeline-linha"></div>
                     <div className="timeline-content">
                         <small className='timeline-date'><FontAwesomeIcon icon={faCalendarDays}/> 2024 - 2029</small>

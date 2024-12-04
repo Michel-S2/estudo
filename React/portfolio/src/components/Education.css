@@ -43,11 +43,13 @@
 
 .timeline-item:nth-child(odd) {
     padding-right: calc(50% + 30px);
+    margin-bottom: 150px;
     text-align: right;
 }
 
 .timeline-item:nth-child(even) {
     padding-left: calc(50% + 30px);
+    margin-bottom: 150px;
 }
 
 .timeline-linha {

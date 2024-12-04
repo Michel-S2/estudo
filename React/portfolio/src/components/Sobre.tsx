@@ -1,16 +1,23 @@
-import { Education } from "./Education"
+'use client'
+import { Animacao } from "./Animacao"
 import "./Sobre.css"
+import "./Animacao.css"
 
 export const Sobre = () => {
+    const ref = Animacao('slide-in-left', 'slide-in-left-active');
+    const ref2 = Animacao('slide-in-right', 'slide-in-right-active');
+    const ref3 = Animacao('hidden', 'fade-in');
+
     return (
-        <section className="container-sobre">
+        <section ref={ref3} className="hidden container-sobre">
             <h2 className="sobre">Sobre</h2>
             <section className="section-sobre">
-                <div className="imagem-michel">
+                <div ref={ref} className="slide-in-left imagem-michel">
                     {/* <img src="/images/michel.jpg" alt="" /> */}
                 </div>
-                <article>
+                <article ref={ref2} className="slide-in-right">
                     <p>👨‍💻 Desenvolvedor Front-End</p>
+                    <p>🏆 Em busca de um estágio para colocar em prática os conhecimentos teóricos</p>
                     <p>🎓 Cursando Engenharia de Software</p>
                     <p>📚 Conhecimentos em ReactJs, TailwindCss e TypeScript</p>
                     <p>🚀 Buscando uma oportunidade para atuar como desenvolvedor</p>

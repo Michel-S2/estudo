@@ -23,10 +23,21 @@ body {
 .animated-element {
   opacity: 0;
   transform: translateY(100px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
 .fade-in {
   opacity: 1;
   transform: translateY(0);
+}
+
+.zoom-in {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.zoom-in-active {
+  opacity: 1;
+  transform: scale(1);
 }

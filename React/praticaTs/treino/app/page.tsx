@@ -1,5 +1,6 @@
 "use client"
 import { useEffect, useRef } from "react";
+import { ZoomInComponent } from "./components/ZoomInComponent";
 
 export default function Home() {
   const elementRef = useRef<HTMLDivElement | null>(null);
@@ -38,10 +39,15 @@ export default function Home() {
       </div>
       <div
         ref={elementRef}
-        className="animated-element h-screen" >
+        className="animated-element h-screen container mx-auto border mb-10" >
         <h1 className="text-5xl text-white">Conteudo animado</h1>
 
       </div>
+      <ZoomInComponent >
+        <h1 className="text-red-950">Outra animação</h1>
+      </ZoomInComponent>
+        
+      
     </div>
   );
 }
