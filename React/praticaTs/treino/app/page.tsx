@@ -1,6 +1,7 @@
 "use client"
 import { useEffect, useRef } from "react";
 import { ZoomInComponent } from "./components/ZoomInComponent";
+import { Carrossel } from "./components/Carrossel";
 
 export default function Home() {
   const elementRef = useRef<HTMLDivElement | null>(null);
@@ -34,6 +35,7 @@ export default function Home() {
   return (
     <div>
       <div className="h-screen mb-6">
+        <Carrossel/>
         <div className="h-72 w-80 bg-slate-500"></div>
         <div className="h-72 w-80 bg-red-400"></div>
       </div>

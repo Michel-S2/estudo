@@ -41,3 +41,38 @@ body {
   opacity: 1;
   transform: scale(1);
 }
+
+.carrosel-cont {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  width: calc(200%);
+  white-space: nowrap;
+  overflow: hidden;
+  animation: loop 10s linear infinite;
+}
+
+.carrosel-track {
+}
+
+.carrosel-item {
+  flex: 0 0 auto;
+  width: 100%; /* Ajuste conforme necessário */
+  max-width: 300px; /* Largura da imagem */
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}

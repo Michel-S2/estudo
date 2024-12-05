@@ -30,6 +30,7 @@ export const Header = () => {
                             <ul className="menu">
                                 <li><a href="">Home</a></li>
                                 <li><a href="">Sobre</a></li>
+                                <li><a href="">Educação</a></li>
                                 <li><a href="">Projetos</a></li>
                                 <li><a href="">Contato</a></li>
                             </ul>
@@ -39,6 +40,7 @@ export const Header = () => {
                     <ul className="lista-navegacao">
                         <li><a href="">Home</a></li>
                         <li><a href="">Sobre</a></li>
+                        <li><a href="">Educação</a></li>
                         <li><a href="">Projetos</a></li>
                         <li><a href="">Contato</a></li>
                     </ul>
