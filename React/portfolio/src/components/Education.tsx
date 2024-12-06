@@ -8,7 +8,7 @@ export const Education = () => {
     const ref = Animacao('hidden', 'fade-in')
     const ref2 = Animacao('hidden', 'fade-in')
     const ref3 = Animacao('hidden', 'fade-in')
-    const ref4 = Animacao('hidden', 'fade-in')
+    const ref4 = Animacao('slide-in-right', 'slide-in-right-active')
     return (
         <article className='container-education'>
             <h2 className='educacao'><FontAwesomeIcon icon={faGraduationCap} className='icon-graduation'/> Educação</h2>
@@ -41,7 +41,7 @@ export const Education = () => {
                     </div>
                 </div>
 
-                <div ref={ref4} className="hidden timeline-item">
+                <div ref={ref4} className="slide-in-right timeline-item">
                     <div className="timeline-linha"></div>
                     <div className="timeline-content">
                         <small className='timeline-date'><FontAwesomeIcon icon={faCalendarDays}/> 2024 - 2029</small>

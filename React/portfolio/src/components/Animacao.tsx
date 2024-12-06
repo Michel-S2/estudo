@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react"
 
-export const Animacao = (initialClass: string, animateClass: string, threshold: number = 0.3) => {
+export const Animacao = (initialClass: string, animateClass: string, threshold: number = 0.2) => {
     const elementRef = useRef<HTMLDivElement | null>(null);
 
 
