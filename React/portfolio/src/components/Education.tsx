@@ -9,10 +9,10 @@ export const Education = () => {
     const ref2 = Animacao('slide-in-right', 'slide-in-right-active')
     const ref3 = Animacao('slide-in-left', 'slide-in-left-active')
     const ref4 = Animacao('slide-in-right', 'slide-in-right-active')
-    const ref5 = Animacao('zoom-in', 'zoom-in-active')
+    const ref5 = Animacao('hidden', 'fade-in')
     return (
         <article className='container-education'>
-            <h2 ref={ref5} className='zoom-in educacao'><FontAwesomeIcon icon={faGraduationCap} className='icon-graduation'/> Educação</h2>
+            <h2 ref={ref5} className='hidden educacao'><FontAwesomeIcon icon={faGraduationCap} className='icon-graduation'/> Educação</h2>
 
             <section className='timeline-itens'>
                 <div ref={ref} className="slide-in-left timeline-item">

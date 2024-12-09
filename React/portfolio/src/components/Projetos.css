@@ -1,0 +1,143 @@
+.projeto-section {
+    background-color: var(--second-bg-color);
+    display: flex;
+    justify-content: center;
+    padding: 50px 15px;
+}
+
+
+.container-projetos {
+    max-width: var(--largura-padrao);
+    width: 100%;
+}
+
+.container-projetos h2 {
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.projeto-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.content-projeto {
+    border: 3px solid var(--cor-principal);
+    align-items: center;
+    border-radius: 20px;
+    height: 620px;
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--cor-principal);
+    transition: 0.3s ease-in-out;
+}
+
+.content-projeto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--cor-principal);
+}
+
+.projeto-thumb {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 300px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-image: url("https://github.com/user-attachments/assets/b6babbbf-a932-438c-bba9-a80203a305d8");
+}
+
+.projeto-info {
+    margin-top: 10px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: inherit;
+}
+
+.projeto-info .projeto-titulo {
+    
+}
+
+.projeto-info .projeto-descricao {
+    line-height: 22px;
+}
+
+.projeto-info .projeto-tecnologias {
+    display: flex;
+    gap: 15px;
+}
+
+.projeto-info .projeto-tecnologias div {
+    padding: 5px 15px;
+    background-color: var(--cor-principal);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--cor-principal);
+    transition: 0.3s ease-in-out;
+}
+
+
+.projeto-info .projeto-tecnologias div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px var(--cor-principal);
+}
+
+.projeto-info .projeto-button {
+    display: flex;
+    gap: 20px;
+}
+
+.projeto-info .projeto-button button {
+    padding: 10px 20px;
+    font-size: 17px;
+    background-color: rgb(115, 116, 117);
+    box-shadow: 0 0 10px rgb(80, 80, 83);
+    transition: 0.3s ease-in-out;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.projeto-info .projeto-button button:hover {
+    box-shadow: 0 0 20px rgb(80, 80, 83);
+    transform: scale(1.05);
+}
+
+
+
+.projeto-info .projeto-button .projeto-icon-git {
+    font-size: 20px;
+}
+
+
+@media (max-width: 840px) {
+    .projeto-area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media (max-width: 500px) {
+    .content-projeto {
+        height: 620px;
+    }
+
+    .projeto-info {
+        gap: 20px;
+    }
+
+    .projeto-info .projeto-button button {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+}

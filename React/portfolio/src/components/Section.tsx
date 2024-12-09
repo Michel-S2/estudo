@@ -3,7 +3,7 @@ import { TextTyper } from "./TextTyper";
 import { TypingEffect } from "./TypingEffect";
 import TypeIt from "typeit";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faWhatsapp, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 export const Section = () => {
     return (

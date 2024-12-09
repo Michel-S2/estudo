@@ -1,0 +1,232 @@
+.contato-section {
+    padding: 50px 15px;
+    background-color: var(--bg-color-black);
+    
+}
+
+.contato-titulo {
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contato-text p {
+    line-height: 22px;
+}
+
+
+.contato-container {
+    max-width: var(--largura-padrao);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--second-bg-color);
+    padding: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.contato-content1 {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 600px;
+    
+}
+
+.contato-content1 .contato-text h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contato-content1 .contato-text p {
+    color: rgb(177, 177, 177);
+}
+
+.contato-informacoes {
+    
+    padding: 10px;
+    
+}
+
+.contato-informacoes .info-item {
+    padding: 20px 20px;
+    width: 300px;
+    
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: .3s ease-in-out;
+}
+
+.contato-informacoes .info-item:hover {
+    background-color: rgba(128, 44, 206, 0.103);
+    border: 2px solid var(--cor-principal);
+    box-shadow: 0 0 10px var(--cor-principal);
+    transform: scale(1.05);
+}
+
+.contato-informacoes .info-item .icon-info {
+    color: var(--cor-principal);
+}
+
+.contato-rede-social .contato-navegacao {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contato-rede-social .contato-navegacao .rede-social{
+    
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+}
+
+.contato-rede-social .contato-navegacao .rede-social:hover{
+    background-color: var(--cor-principal);
+    transform: scale(1.5);
+    
+    box-shadow: 0 0 10px var(--cor-principal);
+}
+
+.contato {
+    font-size: 35px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.contato-content2 {
+    background-color: rgb(240, 240, 240);
+    color: black;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.contato-content2 form {
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+
+.contato-content2 form div {
+    position: relative;
+    
+}
+
+.contato-content2 form div .span-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+    pointer-events: none;
+}
+
+.contato-content2 form div .text-name,
+.contato-content2 form div .email-contato{
+    background-color: white;
+    margin: 10px 0;
+    height: 40px;
+    font-size: 17px;
+    padding: 10px 10px 10px 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(175, 175, 175);
+    color: black;
+    outline: none;
+    width: 100%;
+}
+
+
+
+.contato-content2 form .text-name:focus,
+.contato-content2 form .email-contato:focus{
+    border: 2px solid var(--cor-principal);
+    box-shadow: 0 0 10px var(--cor-principal);
+
+}
+
+
+.text-area-info {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(175, 175, 175);
+    color: black;
+    font-size: 17px;
+    padding: 10px;
+    margin: 10px 0;
+    height: 200px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: vertical;
+}
+
+.text-area-info:focus {
+    border: 2px solid var(--cor-principal);
+    box-shadow: 0 0 10px var(--cor-principal);
+}
+
+.text-area-info::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-submit {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background-color: rgb(131, 27, 228);
+    border: 2px solid var(--cor-principal);
+    margin: 15px 0;
+    transition: .3s ease-in-out;
+    box-shadow: 0 0 10px var(--cor-principal);
+}
+
+.input-submit:hover {
+    box-shadow: 0 0 20px var(--cor-principal);
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 800px) {
+    .contato-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .contato-informacoes .info-item {
+        width: 100%;
+    }
+
+    .contato-content1 {
+        width: 100%;
+    }
+
+    .contato-content2 {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .contato-rede-social .contato-navegacao .rede-social {
+        height: 35px;
+        width: 35px;
+    }
+
+    .contato {
+        font-size: 25px;
+    }
+}
