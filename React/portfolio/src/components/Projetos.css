@@ -15,7 +15,7 @@
     text-align: center;
     font-size: 2.5em;
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 130px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -48,8 +48,8 @@
     
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; 
-    background-image: url("https://github.com/user-attachments/assets/b6babbbf-a932-438c-bba9-a80203a305d8");
+    background-size: cover;
+    
 }
 
 .projeto-info {
@@ -96,6 +96,11 @@
     gap: 20px;
 }
 
+.button-tag-a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .projeto-info .projeto-button button {
     padding: 10px 20px;
     font-size: 17px;
@@ -139,5 +144,9 @@
     .projeto-info .projeto-button button {
         padding: 5px 15px;
         font-size: 14px;
+    }
+
+    .contato-content2 {
+        padding: 20px
     }
 }

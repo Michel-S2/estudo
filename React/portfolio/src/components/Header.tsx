@@ -28,28 +28,28 @@ export const Header = () => {
                         </div>
                         <nav className="nav-menu-mobile" >
                             <ul className="menu">
-                                <li><a href="">Home</a></li>
-                                <li><a href="">Sobre</a></li>
-                                <li><a href="">Educação</a></li>
-                                <li><a href="">Projetos</a></li>
-                                <li><a href="">Contato</a></li>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#sobre">Sobre</a></li>
+                                <li><a href="#educacao">Educação</a></li>
+                                <li><a href="#projetos">Projetos</a></li>
+                                <li><a href="#contato">Contato</a></li>
                             </ul>
                         </nav>
                     </menu>
                     <div className={`overlay ${menuOpen ? 'on' : ''}`} onClick={() => setMenuOpen(false)}></div>
                     <ul className="lista-navegacao">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Sobre</a></li>
-                        <li><a href="">Educação</a></li>
-                        <li><a href="">Projetos</a></li>
-                        <li><a href="">Contato</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#educacao">Educação</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                     {/* <input type="checkbox" id="check" className="checkbox"/> */}
-                    <label htmlFor="check">
+                    {/* <label htmlFor="check">
                         <FontAwesomeIcon icon={faMoon} className="moonIcon"/>
                         <FontAwesomeIcon icon={faSun} className="sunIcon"/>
                         <div className="ball"></div>
-                    </label>
+                    </label> */}
                 </nav>
             </div>
         </header>

@@ -1,5 +1,5 @@
 .containerSection {
-    height: 92vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -36,22 +36,27 @@
             display: flex;
             gap: 30px;
 
-            & li {
+            & .lista-section {
+                position: relative;
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                transition: .3s ease-in-out;
 
                 & a {
 
                     & .linkedin-icon, .github-icon, .insta-icon {
-                        font-size: 30px;
-                        color: var(--cor-principal);
-                        width: 40px;
-                        background: transparent;
-                        height: 40px;
+                        font-size: 35px;
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        border-radius: 50%;
 
                     }
 
                     & .linkedin-icon:hover, .github-icon:hover, .insta-icon:hover {
-                        transform: scale(1.2)translateY(-5px);
-                        box-shadow: 0 0 50px var(--cor-principal);
+                        
                         
                         
                     }
@@ -66,6 +71,12 @@
                     }
                 }
 
+            }
+            & .lista-section:hover {
+                background-color: var(--cor-principal);
+                transform: scale(1.5);
+                
+                box-shadow: 0 0 20px var(--cor-principal);
             }
         }
     }
@@ -102,7 +113,7 @@
             & ul {
                 
     
-                & li {
+                & .lista-section {
     
     
                     & a {
@@ -150,7 +161,7 @@
                 & ul {
                     
         
-                    & li {
+                    & .lista-section {
         
         
                         & a {

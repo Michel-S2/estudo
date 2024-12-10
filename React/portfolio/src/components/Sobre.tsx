@@ -1,7 +1,8 @@
 'use client'
-import { Animacao } from "./Animacao"
 import "./Sobre.css"
 import "./Animacao.css"
+import { Animacao } from "./Animacao"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMedal } from '@fortawesome/free-solid-svg-icons';
 
@@ -36,7 +37,7 @@ export const Sobre = () => {
 
     return (
         <section  className="container-sobre">
-            <div  className="content-sobre">
+            <div id="sobre" className="content-sobre">
                 <h2 ref={ref3} className="hidden sobre"><span><FontAwesomeIcon className="medal-icon" icon={faMedal}/></span> Sobre</h2>
                 <section className="section-sobre">
                     <div ref={ref} className="slide-in-left imagem-michel">

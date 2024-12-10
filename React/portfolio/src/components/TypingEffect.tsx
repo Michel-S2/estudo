@@ -1,6 +1,7 @@
 'use client'
-import { useEffect, useState } from "react"
 import "./TypingEffect.css"
+import { useEffect, useState } from "react"
+
 import TypeIt from "typeit";
 
 

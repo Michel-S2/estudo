@@ -1,7 +1,8 @@
 "use client"
+import "./Education.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap, faCalendarDays } from '@fortawesome/free-solid-svg-icons';
-import "./Education.css"
+
 import { Animacao } from './Animacao';
 
 export const Education = () => {
@@ -11,7 +12,7 @@ export const Education = () => {
     const ref4 = Animacao('slide-in-right', 'slide-in-right-active')
     const ref5 = Animacao('hidden', 'fade-in')
     return (
-        <article className='container-education'>
+        <article id='educacao' className='container-education'>
             <h2 ref={ref5} className='hidden educacao'><FontAwesomeIcon icon={faGraduationCap} className='icon-graduation'/> Educação</h2>
 
             <section className='timeline-itens'>

@@ -8,7 +8,7 @@
     text-align: center;
     font-size: 2.5em;
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 130px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -78,7 +78,6 @@
 .contato-rede-social .contato-navegacao {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
 }
 
 .contato-rede-social .contato-navegacao .rede-social{
@@ -222,11 +221,15 @@
     }
 
     .contato-rede-social .contato-navegacao .rede-social {
-        height: 35px;
-        width: 35px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .contato-rede-social .contato-navegacao {
+        justify-content: space-around;
     }
 
     .contato {
-        font-size: 25px;
+        font-size: 30px;
     }
 }

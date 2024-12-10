@@ -10,8 +10,8 @@ export const Contato = () => {
     const ref = Animacao('hidden', 'fade-in');
     const ref2 = Animacao('zoom-in', 'zoom-in-active');
     return (
-        <section className="contato-section">
-            <h2 ref={ref} className="hidden contato-titulo"><span><FontAwesomeIcon icon={faHandshake}/></span> Contato</h2>
+        <section  className="contato-section">
+            <h2 id="contato" ref={ref} className="hidden contato-titulo"><span><FontAwesomeIcon icon={faHandshake}/></span> Contato</h2>
             <div ref={ref2} className="zoom-in contato-container">
                 <div className="contato-content1">
                     <div className="contato-text">
@@ -33,12 +33,12 @@ export const Contato = () => {
                                 </a>
                             </li>
                             <li className="rede-social">
-                                <a href="">
+                                <a href="https://wa.me/05551997361207?text=Ol%C3%A1%2C%20tudo%20bem%3F" target="_blank">
                                 <FontAwesomeIcon icon={faWhatsapp} className="contato wpp"/>
                                 </a>
                             </li>
                             <li className="rede-social">
-                                <a href="">
+                                <a href="https://www.instagram.com/michelonly/" target="_blank">
                                 <FontAwesomeIcon icon={faInstagram} className="contato i"/>
                                 </a>
                             </li>
@@ -51,12 +51,12 @@ export const Contato = () => {
                         <label htmlFor="input-name">Seu nome</label>
                         <div>
                             <span className="span-icon"><FontAwesomeIcon icon={faCircleInfo} className="span-icon-name"/></span>
-                            <input type="text" className="text-name" id="input-name" placeholder="Digite seu nome" required/>
+                            <input type="text" name="name" className="text-name" id="input-name" placeholder="Digite seu nome" required/>
                         </div>
                         <label htmlFor="input-email">Email</label>
                         <div>
-                            <span className="span-icon"><FontAwesomeIcon icon={faEnvelope} className="span-icon-eamil"/></span>
-                            <input type="email" className="email-contato" id="input-email" placeholder="Digite seu e-mail" required/>
+                            <span className="span-icon"><FontAwesomeIcon icon={faEnvelope} className="span-icon-email"/></span>
+                            <input type="email" name="email" className="email-contato" id="input-email" placeholder="Digite seu e-mail" required/>
                         </div>
                         <label htmlFor="input-message">Mensagem</label>
                         <textarea name="message" id="input-message" className="text-area-info" placeholder="Digite uma mensagem..."></textarea>
