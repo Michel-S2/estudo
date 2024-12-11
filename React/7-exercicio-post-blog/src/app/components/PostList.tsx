@@ -5,7 +5,10 @@ export const PostList = () => {
     const postCtx = useContext(PostContext);
 
     const handleRemove = (id: number) => {
-        postCtx?.removePost(id);
+        postCtx?.dispatch({
+            type: 'remove',
+            payload: {id}
+        });
     }
 
     return (

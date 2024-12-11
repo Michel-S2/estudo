@@ -19,20 +19,20 @@ const projetos:ProjetosTipado[] = [
     {
         id: 1, 
         titulo: 'Rinha de Pokemon',
-        imagem: 'https://github.com/user-attachments/assets/b6babbbf-a932-438c-bba9-a80203a305d8',
-        descricao: 'Esse projeto foi feito a partir do curso b7web, porém o design, as imagens e cores eu fiz a parte. Esse foi um projeto para treinarmos a orientação a objeto',
+        imagem: 'https://github.com/user-attachments/assets/21f4054f-5762-4422-8cf1-a53ad0d82f4e',
+        descricao: 'Este projeto foi desenvolvido como parte do curso da B7Web, mas todo o design, incluindo imagens e escolha de cores, foi criado por mim de forma independente. O foco principal do projeto foi o treinamento de conceitos de orientação a objetos, aplicados na prática.',
         tecnologias: ['Html', 'CSS', 'JavaScript'],
-        deploy: 'https://github.com/Michel-S2/Rinha-de-Pokemom',
-        projeto: 'https://michel-s2.github.io/Rinha-de-Pokemom/'
+        deploy: 'https://github.com/Michel-S2/Rinha-de-Pokemon',
+        projeto: 'https://michel-s2.github.io/Rinha-de-Pokemon/'
     },
     {
         id: 2,
-        titulo: 'Treino Fofo',
-        imagem: 'https://github.com/user-attachments/assets/1bf3f176-db6e-4cfd-a17a-0f03ca6f61c3',
-        descricao: 'App para deixar de treinar fofo',
-        tecnologias: ['php', 'js'],
-        deploy: 'https://github.com/Michel-S2/Rinha-de-Pokemom',
-        projeto: 'https://michel-s2.github.io/Rinha-de-Pokemom/',
+        titulo: 'Post de Blog',
+        imagem: 'https://github.com/user-attachments/assets/de97612c-d8e6-4e9a-a52f-2ef9aeb3fcc8',
+        descricao: 'Projeto que simula postagens de um blog, desenvolvido com o objetivo de aprimorar conhecimentos no uso de Reducer e Context, explorando a gestão de estado de forma eficiente.',
+        tecnologias: ['TypeScript', 'ReactJs', 'TailwindCSS'],
+        deploy: 'https://github.com/Michel-S2/Post-de-Blog',
+        projeto: 'https://post-de-blog.vercel.app/',
     }
 ]
 
@@ -52,7 +52,7 @@ export const Projetos = () => {
 
                     {projetos.map((item) => (
                         <div key={item.id} className="content-projeto">
-                            <div onClick={() => handleClick(item.deploy)} className="projeto-thumb" style={{backgroundImage: `url(${item.imagem})`}}></div>
+                            <div onClick={() => handleClick(item.projeto)} className="projeto-thumb" style={{backgroundImage: `url(${item.imagem})`}}></div>
                             <div className="projeto-info">
                                 <h3 className="projeto-titulo">{item.titulo}</h3>
                                 <p>{item.descricao}</p>

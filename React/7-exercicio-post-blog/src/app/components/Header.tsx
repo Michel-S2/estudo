@@ -1,17 +1,22 @@
 'use client'
 
-import { useContext, useState } from "react"
-import { PostContext } from "../context/PostContext"
+import { useState } from "react"
+import { usePosts } from "../context/PostContext"
 
 export const Header = () => {
 
     const [title, setTitle] = useState<string>(''); // Estado para armazenar o título
     const [message, setMessage] = useState<string>(''); // Estado para armazenar a mensagem
-    const postCtx = useContext(PostContext); // Usando o contexto
+    const postCtx = usePosts();
 
+    //Função para adicionar
     const handleAdd = () => {
-        if (title && message ) {
-          postCtx?.addPost(title, message)// Adiciona o post ao contexto
+        if (title && message ) { //Verificação pra ver se tem algo nos input
+
+          postCtx?.dispatch({ //Se tiver algo no context pega o dispatch e executa a função add
+            type: 'add',
+            payload: {title: title, body: message}
+          })
           setTitle(''); // Limpa o campo de título
           setMessage(''); // Limpa o campo de mensagem
         }

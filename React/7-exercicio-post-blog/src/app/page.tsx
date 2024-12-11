@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <PostContextProvider >
       <div className="flex flex-col items-center">
-        <h1 className="text-center p-5 text-3xl">Titulo da página</h1>
+        <h1 className="text-center p-5 text-3xl">Post de Hoje</h1>
         <Header/>
         <PostList/>
         <Footer/>
