@@ -127,7 +127,7 @@
 
 @media (max-width: 840px) {
     .projeto-area {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 100%);
     }
 }
 
@@ -148,5 +148,16 @@
 
     .contato-content2 {
         padding: 20px
+    }
+}
+
+@media (max-width: 405px) {
+    .content-projeto {
+        height: 100%;
+    }
+
+    .projeto-info .projeto-tecnologias div {
+        padding: 3px 6px;
+        font-size: 14px;
     }
 }
