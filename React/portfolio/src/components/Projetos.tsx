@@ -32,7 +32,7 @@ const projetos:ProjetosTipado[] = [
         descricao: 'Projeto que simula postagens de um blog, desenvolvido com o objetivo de aprimorar conhecimentos no uso de Reducer e Context, explorando a gestão de estado de forma eficiente.',
         tecnologias: ['TypeScript', 'ReactJs', 'TailwindCSS'],
         deploy: 'https://github.com/Michel-S2/Post-de-Blog',
-        projeto: 'https://post-de-blog.vercel.app/',
+        projeto: 'https://post-de-blog-arspigw2c-michel-s2s-projects.vercel.app/',
     }
 ]
 
