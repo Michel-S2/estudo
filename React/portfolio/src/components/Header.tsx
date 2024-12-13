@@ -3,10 +3,13 @@ import "./Header.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon, faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { useState } from "react";
+import { useTema } from "@/context/TemaContext";
+import { DarkMode } from "./DarkMode";
 
 export const Header = () => {
     const [menuOpen, setMenuOpen] = useState<boolean>(false);
     const caracter:string = '</>';
+    const temaCtx = useTema();
 
     const handleMenuMobile = () => {
         setMenuOpen(!menuOpen);
@@ -14,7 +17,7 @@ export const Header = () => {
 
     return (
         <header>
-            <div className="container">
+            <div className={`container ${temaCtx?.tema === 'light' ? 'light' : ''}`}>
                 <div className="home">
                     <h2><span className="span">{caracter}</span> MICHEL <span>FREITAS</span></h2>
                 </div>
@@ -34,6 +37,7 @@ export const Header = () => {
                                 <li><a href="#projetos">Projetos</a></li>
                                 <li><a href="#contato">Contato</a></li>
                             </ul>
+                            <DarkMode/>
                         </nav>
                     </menu>
                     <div className={`overlay ${menuOpen ? 'on' : ''}`} onClick={() => setMenuOpen(false)}></div>
@@ -44,12 +48,7 @@ export const Header = () => {
                         <li><a href="#projetos">Projetos</a></li>
                         <li><a href="#contato">Contato</a></li>
                     </ul>
-                    {/* <input type="checkbox" id="check" className="checkbox"/> */}
-                    {/* <label htmlFor="check">
-                        <FontAwesomeIcon icon={faMoon} className="moonIcon"/>
-                        <FontAwesomeIcon icon={faSun} className="sunIcon"/>
-                        <div className="ball"></div>
-                    </label> */}
+                    <DarkMode/>
                 </nav>
             </div>
         </header>
