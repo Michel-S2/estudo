@@ -3,10 +3,12 @@ import { TypingEffect } from "./TypingEffect";
 import TypeIt from "typeit";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { useTema } from "@/context/TemaContext";
 
 export const Section = () => {
+    const temaCtx = useTema();
     return (
-        <section id="home" className="containerSection">
+        <section id="home" className={`containerSection ${temaCtx?.tema === 'light' ? 'light' : ''}`}>
             <div>
                 <p>Olá, eu sou o...</p>
                 <h2 className="h2Name">Michel Freitas</h2>

@@ -1,11 +1,22 @@
 {
     "configurations": [
+        {
+            "name": "Debug React App",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:3000",
+            "sourceMaps": false,
+            "webRoot": "${workspaceFolder}/src"
+        },
+
+
     {
-        "name": "Attach by Process ID",
+        "name": "Attach to Node Process",
         "processId": "${command:PickProcess}",
         "request": "attach",
         "skipFiles": [
-            "<node_internals>/**"
+            "<node_internals>/**",
+            "**/node_modules/**"
         ],
         "type": "node"
     }

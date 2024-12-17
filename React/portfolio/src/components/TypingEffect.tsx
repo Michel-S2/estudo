@@ -1,4 +1,5 @@
 'use client'
+import { useTema } from "@/context/TemaContext";
 import "./TypingEffect.css"
 import { useEffect, useState } from "react"
 
@@ -6,6 +7,7 @@ import TypeIt from "typeit";
 
 
 export const TypingEffect = () => {
+  const temaCtx = useTema();
   
   useEffect(() => {
     new TypeIt('.animacao', {
@@ -25,7 +27,7 @@ export const TypingEffect = () => {
   }, []);
 
   return (
-    <h2 className="h2Profissao"><span className="animacao"></span>
+    <h2 className={`h2Profissao ${temaCtx?.tema === 'light' ? 'light' : ''}`}><span className="animacao"></span>
     </h2>
   );
 };

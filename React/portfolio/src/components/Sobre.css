@@ -57,8 +57,71 @@
                     font-size: 20px;
 
                     & span {
-                        color: var(--cor-principal);
-                        border-bottom: 2px solid var(--cor-principal);
+                       
+                    }
+                }
+            }
+        }
+
+        & .container-scroll {
+            margin-top: 150px;
+            max-width: 870px;
+            margin-inline: auto;
+            overflow: hidden;
+            mask: linear-gradient(to right, trasparent, red 15%, red 85%, trasparent);
+
+            & .scroll {
+                display: flex;
+                gap: 20px;
+                width: max-content;
+                animation: scroll-infinite 10s linear infinite;
+
+                & .scroll-item {
+                    padding: 10px 30px;
+                    & .icon {
+                        width: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.container-sobre.light {
+
+    background-color: var(--tema-claro-bg2);
+    & .content-sobre {
+
+
+        & .sobre {
+            color: var(--tema-claro-fonte);
+
+        }
+
+        & .section-sobre {
+            
+
+            & .imagem-michel {
+                
+                box-shadow: 0 0 25px var(--cor-principal);
+                
+            }
+
+            & .imagem-michel:hover {
+                box-shadow: 0 0 25px var(--cor-principal);
+                box-shadow: 0 0 50px var(--cor-principal);
+                box-shadow: 0 0 100px var(--cor-principal);
+            }
+
+            & article {
+                
+
+                & p {
+                    color: var(--tema-claro-fonte);
+                    & span {
+                        
                     }
                 }
             }

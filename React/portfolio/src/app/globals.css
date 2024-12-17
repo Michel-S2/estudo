@@ -8,6 +8,9 @@
   --largura-padrao: 1400px;
   --cor-principal: rgba(127, 44, 206, 0.863);
   --font-principal: Verdana, Geneva, Tahoma, sans-serif;
+  --tema-claro-bg1: rgb(224, 224, 224);
+  --tema-claro-bg2: rgb(201, 201, 201);
+  --tema-claro-fonte: black;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -85,6 +85,74 @@
 }
 
 
+
+.containerSection.light {
+    background-color: var(--tema-claro-bg1);
+    
+    & div {
+        
+        & p {
+            color: var(--tema-claro-fonte);
+
+        }
+
+        & .h2Name {
+            color: var(--tema-claro-fonte);
+
+        }
+
+        & .efeito {
+            
+        }
+        
+        }
+
+
+    & nav {        
+
+        & ul {
+            
+
+            & .lista-section {
+                
+
+                & a {
+
+                    & .linkedin-icon, .github-icon, .insta-icon {
+                        color: var(--tema-claro-fonte);
+
+                    }
+
+                    & .linkedin-icon:hover, .github-icon:hover, .insta-icon:hover {
+                        
+                        
+                        
+                    }
+
+                    & .linkedin-icon, .github-icon, .insta-icon {
+
+                    }
+
+                    & img {
+                        
+
+                    }
+                }
+
+            }
+            & .lista-section:hover {
+                background-color: var(--cor-principal);
+                
+                cursor: pointer;
+               
+            }
+        }
+    }
+
+    
+}
+
+
 @media (max-width: 700px) {
     .containerSection {
         

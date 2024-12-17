@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPen, faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons"
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { Animacao } from './Animacao';
+import { useTema } from "@/context/TemaContext";
 
 type ProjetosTipado = {
     id: number;
@@ -39,13 +40,14 @@ const projetos:ProjetosTipado[] = [
 
 export const Projetos = () => {
     const ref = Animacao('hidden', 'fade-in');
+    const temaCtx = useTema();
 
     const handleClick = (item:string) => {
         window.open(`${item}`, '_blank');
       };
 
     return (
-        <section  className="projeto-section">
+        <section  className={`projeto-section ${temaCtx?.tema === 'light' ? 'light' : ''}`}>
             <div id="projetos" className="container-projetos">
                 <h2 ref={ref} className="hidden"><span><FontAwesomeIcon icon={faPen} className="icon-pen"/></span> Projetos</h2>
                 <section className="projeto-area">

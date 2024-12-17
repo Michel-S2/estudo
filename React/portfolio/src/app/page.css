@@ -1,0 +1,48 @@
+.container-principal {
+    overflow: auto;
+    
+}
+
+/* ::-webkit-scrollbar-track {
+    background-color: red;
+    width: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: blue;
+} */
+
+
+
+
+/* Estilo padrão */
+#container-principal.container-principal ::-webkit-scrollbar {
+    width: 10px; /* Largura padrão */
+}
+
+#container-principal.container-principal ::-webkit-scrollbar-track {
+    background-color: rgb(204, 17, 17); /* Trilho padrão */
+}
+
+#container-principal.container-principal ::-webkit-scrollbar-thumb {
+    background-color: gray; /* Cor do polegar */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo para o tema 'light' */
+#container-principal.container-principal.light ::-webkit-scrollbar {
+    width: 12px; /* Largura maior no tema claro */
+}
+
+#container-principal.container-principal.light ::-webkit-scrollbar-track {
+    background-color: #169b3d; /* Cor clara para o trilho */
+}
+
+#container-principal.container-principal.light ::-webkit-scrollbar-thumb {
+    background-color: #d1d1d1; /* Cor clara para o polegar */
+    border-radius: 10px; /* Mais arredondado */
+}

@@ -33,6 +33,7 @@
     cursor: pointer;
     box-shadow: 0 0 10px var(--cor-principal);
     transition: 0.3s ease-in-out;
+    overflow: hidden;
 }
 
 .content-projeto:hover {
@@ -42,8 +43,7 @@
 
 .projeto-thumb {
     width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+
     height: 300px;
     
     background-repeat: no-repeat;
@@ -123,6 +123,30 @@
 .projeto-info .projeto-button .projeto-icon-git {
     font-size: 20px;
 }
+
+
+
+.projeto-section.light {
+    background-color: var(--tema-claro-bg2);
+}
+
+.projeto-section.light h2{
+    color: var(--tema-claro-fonte);
+}
+
+.projeto-section.light .content-projeto{
+    background-color: var(--tema-claro-bg2);
+}
+
+.projeto-section.light .projeto-info{
+    color: var(--tema-claro-fonte);
+}
+
+.projeto-section.light .projeto-tecnologias {
+    color: white;
+}
+
+
 
 
 @media (max-width: 840px) {

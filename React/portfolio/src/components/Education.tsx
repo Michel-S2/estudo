@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap, faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 
 import { Animacao } from './Animacao';
+import { useTema } from "@/context/TemaContext";
 
 export const Education = () => {
     const ref = Animacao('slide-in-left', 'slide-in-left-active')
@@ -11,8 +12,9 @@ export const Education = () => {
     const ref3 = Animacao('slide-in-left', 'slide-in-left-active')
     const ref4 = Animacao('slide-in-right', 'slide-in-right-active')
     const ref5 = Animacao('hidden', 'fade-in')
+    const temaCtx = useTema()
     return (
-        <article id='educacao' className='container-education'>
+        <article id='educacao' className={`container-education ${temaCtx?.tema === 'light' ? 'light' : ''}`}>
             <h2 ref={ref5} className='hidden educacao'><FontAwesomeIcon icon={faGraduationCap} className='icon-graduation'/> Educação</h2>
 
             <section className='timeline-itens'>

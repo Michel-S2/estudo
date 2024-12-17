@@ -5,12 +5,14 @@ import { faHandshake, faEnvelope, faPhone, faDownload, faCircleInfo } from '@for
 import { faLinkedin, faWhatsapp, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { Animacao } from './Animacao';
 import {useRef} from "react"
+import { useTema } from "@/context/TemaContext";
 
 export const Contato = () => {
     const ref = Animacao('hidden', 'fade-in');
     const ref2 = Animacao('zoom-in', 'zoom-in-active');
+    const temaCtx = useTema();
     return (
-        <section  className="contato-section">
+        <section  className={`contato-section ${temaCtx?.tema === 'light' ? 'light' : ''}`}>
             <h2 id="contato" ref={ref} className="hidden contato-titulo"><span><FontAwesomeIcon icon={faHandshake}/></span> Contato</h2>
             <div ref={ref2} className="zoom-in contato-container">
                 <div className="contato-content1">

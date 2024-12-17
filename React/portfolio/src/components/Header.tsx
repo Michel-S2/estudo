@@ -11,13 +11,14 @@ export const Header = () => {
     const caracter:string = '</>';
     const temaCtx = useTema();
 
+
     const handleMenuMobile = () => {
         setMenuOpen(!menuOpen);
     }
 
     return (
-        <header>
-            <div className={`container ${temaCtx?.tema === 'light' ? 'light' : ''}`}>
+        <header className={` ${temaCtx?.tema === 'light' ? 'light' : ''}`}>
+            <div className={`container`}>
                 <div className="home">
                     <h2><span className="span">{caracter}</span> MICHEL <span>FREITAS</span></h2>
                 </div>
@@ -37,7 +38,6 @@ export const Header = () => {
                                 <li><a href="#projetos">Projetos</a></li>
                                 <li><a href="#contato">Contato</a></li>
                             </ul>
-                            <DarkMode/>
                         </nav>
                     </menu>
                     <div className={`overlay ${menuOpen ? 'on' : ''}`} onClick={() => setMenuOpen(false)}></div>

@@ -7,13 +7,14 @@ export const DarkMode = () => {
     const temaCtx = useTema();
 
     const handleSwitchTema = () => {
+        console.log(temaCtx?.tema)
         if(temaCtx) {
             temaCtx.setTema(temaCtx.tema === 'light' ? 'dark' : 'light');
         }
     }
     return (
         <section className={`container-botao-tema ${temaCtx?.tema === 'light' ? 'light' : 'dark'}`}>
-            <input type="checkbox" id="check" className="check"/>
+            <input type="checkbox" id="check" className="check" />
 
             <label htmlFor="check" onClick={handleSwitchTema} className="label">
                 <span><FontAwesomeIcon icon={faSun}/></span>

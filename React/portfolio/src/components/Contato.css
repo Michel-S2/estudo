@@ -8,7 +8,7 @@
     text-align: center;
     font-size: 2.5em;
     padding-top: 100px;
-    padding-bottom: 130px;
+    padding-bottom: 131px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -92,7 +92,7 @@
 .contato-rede-social .contato-navegacao .rede-social:hover{
     background-color: var(--cor-principal);
     transform: scale(1.5);
-    
+    cursor: pointer;
     box-shadow: 0 0 10px var(--cor-principal);
 }
 
@@ -198,6 +198,48 @@
     box-shadow: 0 0 20px var(--cor-principal);
     transform: scale(1.05);
 }
+
+
+
+.contato-section.light {
+    background-color: var(--tema-claro-bg1);
+}
+
+.contato-section.light h2 {
+    color: var(--tema-claro-fonte);
+}
+
+
+.contato-section.light .contato-container {
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0 0 20px black;
+}
+
+.contato-section.light .contato-text h3,
+.contato-section.light .contato-text p {
+    color: black;
+}
+
+.contato-section.light .contato-informacoes {
+    color: black;
+}
+
+.contato-section.light .info-item:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.contato-section.light .contato-content2 {
+    background-color:rgb(191 191 191);
+}
+
+
+
+.contato-section.light .contato-rede-social .contato-navegacao .rede-social{
+    color: black;
+}
+
+
+
 
 
 @media (max-width: 800px) {
