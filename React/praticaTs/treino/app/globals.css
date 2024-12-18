@@ -82,3 +82,59 @@ section.light {
 .check:checked + .label .ball {
   transform: translateX(24px);
 }
+
+.container-msg {
+  display: flex;
+}
+
+.container-msg .direita {
+  justify-items: end;
+  padding: 10px;
+  width: 100%;
+}
+
+.span {
+  display: block;
+}
+
+.container-msg .direita .msg {
+  padding: 3px;
+  text-align: end;
+  border: 1px solid blue;
+  min-width: 100px;
+  border-radius: 10px;
+  max-width: 50%;
+  word-wrap: break-word;
+}
+
+.container-msg .direita .msg strong {
+  text-align: end;
+}
+
+.container-msg .direita .msg span {
+  text-align: end;
+}
+
+.container-msg .esquerda {
+  justify-items: start;
+  padding: 10px;
+  width: 100%;
+}
+
+.container-msg .esquerda .msg {
+  padding: 3px;
+  text-align: start;
+  border: 1px solid rgb(0, 255, 0);
+  min-width: 100px;
+  border-radius: 10px;
+  max-width: 50%;
+  word-wrap: break-word;
+}
+
+.container-msg .esquerda .msg strong {
+  text-align: start;
+}
+
+.container-msg .esquerda .msg span {
+  text-align: start;
+}

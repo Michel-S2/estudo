@@ -13,7 +13,7 @@ export const DarkMode = () => {
         }
     }
     return (
-        <section className={`container-botao-tema ${temaCtx?.tema === 'light' ? 'light' : 'dark'}`}>
+        <section className={`z-30 container-botao-tema ${temaCtx?.tema === 'light' ? 'light' : 'dark'}`}>
             <input type="checkbox" id="check" className="check" />
 
             <label htmlFor="check" onClick={handleSwitchTema} className="label">

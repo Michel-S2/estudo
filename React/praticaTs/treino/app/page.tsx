@@ -3,30 +3,33 @@
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import { Div } from "./components/Div";
-import { TemaContextProvider } from "./context/TemaContext";
+import { TemaContextProvider, useTema } from "./context/TemaContext";
 import { DarkMode } from './components/DarkMode';
+import { Identificacao } from './components/Identificacao';
+import { Chat } from './components/Chat';
+import { useState } from 'react';
 
+const page = [
+  {id: 1, page: 1},
+  {id: 2, page: 2}
+]
 
 export default function Home() {
+  const [paginas, setPaginas] = useState(page[0].page)
+  const userValidCtx = useTema();
 
+  const nextPage = () => {
+    setPaginas(page[1].page)
+  }
+
+console.log(userValidCtx?.userValid)
   return (
     <TemaContextProvider>
       <Div>
-        <header className="flex justify-between py-5">
-          <h1>Michel freitas</h1>
-          <nav>
-            <ul className="flex gap-3">
-              <li>Home</li>
-              <li>Projetos</li>
-              <li>Contato</li>
-              <li>Sobre</li>
-            </ul>
-            <DarkMode/>
-          </nav>
-        </header>
-        <section>
-          <h2>Olá mundo</h2>
-        </section>
+          <DarkMode/>
+          <h1 className="text-center text-4xl my-4">Chat Simples</h1>
+          {paginas === 1 && <Identificacao nextPage={nextPage}/>}
+          {paginas === 2 && <Chat/>}
       </Div>
     </TemaContextProvider>
   );

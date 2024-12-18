@@ -4,6 +4,8 @@ const STORAGE_KEY = '';
 
 type TemaContextType = {
     tema: string;
+    userValid: string;
+    setUserValid: (user:string) => void;
     setTema: (novoTema: string) => void;
 }
 
@@ -15,9 +17,17 @@ type Props = {
 }
 
 export const TemaContextProvider = ({ children }: Props) => {
-    const [tema, setTema] = useState(
-        localStorage.getItem(STORAGE_KEY) || 'dark'
-    );
+    const [tema, setTema] = useState( 'dark');
+    const [userValid, setUserValid] = useState('')
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            const themeSaved = localStorage.getItem(STORAGE_KEY);
+            if (themeSaved) {
+                setTema(themeSaved);
+            }
+        }
+    }, [])
 
     useEffect(() => {
         localStorage.setItem(STORAGE_KEY, tema);
@@ -25,7 +35,7 @@ export const TemaContextProvider = ({ children }: Props) => {
     }, [tema]);
 
     return (
-        <TemaContext.Provider value={{tema, setTema}}>
+        <TemaContext.Provider value={{tema, userValid, setUserValid, setTema}}>
             {children}
         </TemaContext.Provider>
     )

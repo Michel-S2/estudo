@@ -7,7 +7,7 @@ export const Div = ({ children }: {children: ReactNode}) => {
 
     return(
         <div className={`w-full h-screen container-inicial ${temaCtx?.tema === 'light' ? 'light' : 'dark'}`}>
-            <div className="container mx-auto">{children}</div>
+            <div className="container mx-auto py-5">{children}</div>
         </div>
     )
 }
