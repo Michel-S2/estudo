@@ -1,7 +1,7 @@
 "use client"
 import { chatReducer } from "@/reducers/chatReducer";
 import { Message } from "@/types/Message";
-import { createContext, ReactNode, useReducer } from "react";
+import { createContext, ReactNode, useContext, useReducer } from "react";
 
 // Tipamos o context
 type ChatContextType = {
@@ -36,4 +36,4 @@ export const ChatContextProvider = ({ children }: {children:ReactNode}) => {
     )
 }
 // Hook personalizado para ficar mais facil acessar o context
-const useChat = () => createContext(ChatContext);
+export const useChat = () => useContext(ChatContext);

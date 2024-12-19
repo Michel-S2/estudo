@@ -1,5 +1,5 @@
 "use client"
-import { createContext, ReactNode, useState } from "react";
+import { createContext, ReactNode, useContext, useState } from "react";
 
 // Type para o context
 type UserContextType = {
@@ -27,4 +27,4 @@ export const UserContextProvider = ({ children } : {children: ReactNode}) => {
 }
 
 // Hook personalizado para ficar mais facil acessar o context
-export const useUser = () => createContext(UserContext);
+export const useUser = () => useContext(UserContext);
