@@ -1,0 +1,1 @@
+export type Role = 'proprietario' | 'usuario' | 'membro' | 'desenvolvedor'

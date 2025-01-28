@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Open Files" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5fc4483-52bb-4782-ad80-a32be646ca3d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DiaDaSemana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GrausCelsius.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InputTeclado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javadoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Nota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NotaAluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Soma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tabuada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValorX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VelocidadePermitida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pratica.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OlaMundo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pratica/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pratica/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pratica/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pratica/.idea/pratica.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pratica/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pratica/OlaMundo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../treino/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../treino/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../treino/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../treino/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../treino/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../treino/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../treino/treino.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MICHEL-FREITAS-CV.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MICHEL-FREITASCV.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../MICHEL-FREITASCV.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2rzj2W9myaIS5bAup6To0fo2DNG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DiaDaSemana.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GrausCelsius.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InputTeclado.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Nota.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NotaAluno.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Soma.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tabuada.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ValorX.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VelocidadePermitida.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DiaDaSemana" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiaDaSemana" />
+      <module name="pratica" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="pratica" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nota" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Nota" />
+      <module name="pratica" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Soma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Soma" />
+      <module name="pratica" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tabuada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tabuada" />
+      <module name="pratica" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Tabuada" />
+        <item itemvalue="Application.Nota" />
+        <item itemvalue="Application.Soma" />
+        <item itemvalue="Application.DiaDaSemana" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5fc4483-52bb-4782-ad80-a32be646ca3d" name="Changes" comment="" />
+      <created>1737568593092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737568593092</updated>
+    </task>
+    <servers />
+  </component>
+</project>
