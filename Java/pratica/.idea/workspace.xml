@@ -9,8 +9,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5fc4483-52bb-4782-ad80-a32be646ca3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lampada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LampadaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Retangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RetanguloArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,30 +42,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DiaDaSemana.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GrausCelsius.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InputTeclado.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Nota.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NotaAluno.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Soma.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tabuada.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ValorX.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VelocidadePermitida.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Michel/Desktop/estudo/Java/pratica&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DiaDaSemana.executor": "Run",
+    "Application.GrausCelsius.executor": "Run",
+    "Application.InputTeclado.executor": "Run",
+    "Application.LampadaApp.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Nota.executor": "Run",
+    "Application.NotaAluno.executor": "Run",
+    "Application.RetanguloArea.executor": "Run",
+    "Application.Soma.executor": "Run",
+    "Application.Tabuada.executor": "Debug",
+    "Application.ValorX.executor": "Run",
+    "Application.VelocidadePermitida.executor": "Run",
+    "Application.app1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/robso/OneDrive/Documentos/Desktop/estudo/Java/pratica",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="DiaDaSemana" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiaDaSemana" />
+}]]></component>
+  <component name="RunManager" selected="Application.RetanguloArea">
+    <configuration name="LampadaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LampadaApp" />
       <module name="pratica" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,15 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nota" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Nota" />
-      <module name="pratica" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Soma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Soma" />
+    <configuration name="RetanguloArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RetanguloArea" />
       <module name="pratica" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,13 +95,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="app1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app1" />
+      <module name="pratica" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RetanguloArea" />
+        <item itemvalue="Application.LampadaApp" />
+        <item itemvalue="Application.app1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Tabuada" />
-        <item itemvalue="Application.Nota" />
-        <item itemvalue="Application.Soma" />
-        <item itemvalue="Application.DiaDaSemana" />
       </list>
     </recent_temporary>
   </component>
