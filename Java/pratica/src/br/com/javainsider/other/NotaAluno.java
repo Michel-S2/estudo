@@ -1,3 +1,5 @@
+package br.com.javainsider.other;
+
 public class NotaAluno {
     public static void main(String[] args) {
 

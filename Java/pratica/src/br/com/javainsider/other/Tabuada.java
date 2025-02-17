@@ -1,9 +1,11 @@
+package br.com.javainsider.other;
+
 public class Tabuada {
     public static void main(String[] args) {
 
         var scanner = new java.util.Scanner(System.in);
 
-        System.out.print("Tabuada do: ");
+        System.out.print("br.com.javainsider.other.Tabuada do: ");
         int tabuada = Integer.parseInt(scanner.nextLine());
 
         System.out.println("==============================");

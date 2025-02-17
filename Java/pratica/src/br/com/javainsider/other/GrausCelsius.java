@@ -1,3 +1,5 @@
+package br.com.javainsider.other;
+
 public class GrausCelsius {
 
     public static void main(String[] args) {

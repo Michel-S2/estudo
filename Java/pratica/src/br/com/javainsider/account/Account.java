@@ -1,22 +1,27 @@
+package br.com.javainsider.account;
+
 public class Account {
-    private  String accountNumber;
-    private  String accountName;
+    private final String accountNumber;
+    private final String accountName;
     private double balance;
 
+    public static final int INITIAL_VALUE = 10;
 
-    public Account( String accountNumber, String accountName, double balance) {
-        this.balance = balance;
+    private static int currentID;
+
+    static {
+        System.out.println("Iniciando o bloco estático");
+
+        currentID = INITIAL_VALUE;
+
+    }
+
+    public Account( String accountName) {
+        this.balance = 0;
         this.accountName = accountName;
-        this.accountNumber = accountNumber;
+        this.accountNumber = "000" + currentID++;
     }
 
-    public Account(String accountNumber) {
-        this(accountNumber, null, 0);
-    }
-
-    public Account(String accountNumber, double balance) {
-        this(accountNumber,  null, 0);
-    }
 
     boolean deposito(double valor) {
         if (valor > 0 ) {
@@ -56,10 +61,7 @@ public class Account {
         return accountNumber;
     }
 
-    public void setAccountName(String accountName) {
-        if (!accountName.isBlank()) {
-            this.accountName = accountName;
-        }
+    public static int getCurrentID() {
+        return currentID;
     }
-
 }

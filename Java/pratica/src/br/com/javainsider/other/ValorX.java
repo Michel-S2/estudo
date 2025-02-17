@@ -1,3 +1,5 @@
+package br.com.javainsider.other;
+
 public class ValorX {
     public static void main(String[] args) {
 

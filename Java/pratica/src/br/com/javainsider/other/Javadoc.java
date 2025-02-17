@@ -1,3 +1,4 @@
+package br.com.javainsider.other;
 
 /**
  * Classe do meu programa
