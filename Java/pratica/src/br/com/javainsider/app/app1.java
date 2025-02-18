@@ -1,18 +1,20 @@
 package br.com.javainsider.app;
 
 import br.com.javainsider.account.Account;
+import br.com.javainsider.account.Poupanca;
 
 public class app1 {
     public static void main(String[] args) {
 
-        var a1 = new Account("Michel");
-        var a2 = new Account("Pedro");
-        var a3 = new Account("Andressa");
+        var a1 = new Account("Andressa", "1234-5");
 
-        int id = a1.getCurrentID();
-        int newID = Account.getCurrentID();
+        a1.setBalance(3000);
+        a1.detalhe();
 
-        System.out.println(id);
-        System.out.println(newID);
+        var a2 = new Poupanca("Michel", "6666-6");
+
+        a2.setJuros(1.2);
+        a2.setBalance(2000);
+        a2.detalhe();
     }
 }

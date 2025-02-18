@@ -3,27 +3,17 @@ package br.com.javainsider.account;
 public class Account {
     private final String accountNumber;
     private final String accountName;
-    private double balance;
+    protected double balance;
 
-    public static final int INITIAL_VALUE = 10;
 
-    private static int currentID;
-
-    static {
-        System.out.println("Iniciando o bloco estático");
-
-        currentID = INITIAL_VALUE;
-
-    }
-
-    public Account( String accountName) {
+    public Account( String accountName, String accountNumber) {
         this.balance = 0;
         this.accountName = accountName;
-        this.accountNumber = "000" + currentID++;
+        this.accountNumber = accountNumber;
     }
 
 
-    boolean deposito(double valor) {
+    public boolean deposito(double valor) {
         if (valor > 0 ) {
             balance += valor;
             return true;
@@ -31,11 +21,8 @@ public class Account {
         return false;
     }
 
-    boolean deposito(String valor) {
-        return deposito(Double.parseDouble(valor));
-    }
 
-    boolean saque(double valor) {
+    public boolean saque(double valor) {
         if (valor > 0) {
             balance -= valor;
             return true;
@@ -44,13 +31,28 @@ public class Account {
         return false;
     }
 
-    void transferir(double valor, Account contaDestino) {
+    public void transferir(double valor, Account contaDestino) {
         saque(valor);
         contaDestino.deposito(valor);
     }
 
-    void mostrarSaldo() {
+    public void mostrarSaldo() {
         System.out.println("R$ " + balance);
+    }
+
+    public void detalhe() {
+        System.out.println("Nome: " + accountName + "\n" +
+                           "Numero: " + accountNumber + "\n" +
+                           "Saldo: " + balance);
+    }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "accountNumber='" + accountNumber + '\'' +
+                ", accountName='" + accountName + '\'' +
+                ", balance=" + balance +
+                '}';
     }
 
     public String getAccountName() {
@@ -61,7 +63,7 @@ public class Account {
         return accountNumber;
     }
 
-    public static int getCurrentID() {
-        return currentID;
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 }
