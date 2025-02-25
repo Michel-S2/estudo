@@ -1,6 +1,6 @@
 package br.com.javainsider.pet;
 
-public class AnimalTerrestre extends Pet{
+public abstract class AnimalTerrestre extends Pet{
 
     public void andar() {
         System.out.println("Animal Terrestre está andando!!");

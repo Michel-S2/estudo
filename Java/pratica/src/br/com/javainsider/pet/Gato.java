@@ -6,4 +6,9 @@ public class Gato extends AnimalTerrestre{
     public void falar() {
         System.out.println("MiauMiau!!!");
     }
+
+    @Override
+    public void dormir() {
+        System.out.println("Gato Está Dormindo");
+    }
 }

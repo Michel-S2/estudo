@@ -9,18 +9,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5fc4483-52bb-4782-ad80-a32be646ca3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/account/Poupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet/Animais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet/AnimalAquatico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet/AnimalTerrestre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet/Peixe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/aula/Exemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/aula/PersonRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/banco/Banco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/banco/Corrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/banco/Poupanca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/banco/app.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/drive/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/drive/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/drive/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/geometria/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/geometria/BaseGeometrica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/geometria/CalcularFormas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/geometria/CirculoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/geometria/Quadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/geometria/RetanguloImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/login/LoginIgual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/login/LoginPadrao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/login/Sistema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/login/SystemLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/person/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/person/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/person/RandomGeneratorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/person/SequenceGeneratorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet2/App1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet2/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet2/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet2/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/string/Interface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/string/StringManipulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/string/StringManipulatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/string/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/walk/Formiga.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/walk/Jumpable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/walk/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/walk/Walkable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/javainsider/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/javainsider/account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/javainsider/app/App3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/javainsider/app/App3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/javainsider/app/app1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/javainsider/app/app1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/javainsider/pet/AnimalAquatico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet/AnimalAquatico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/javainsider/pet/AnimalTerrestre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet/AnimalTerrestre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/javainsider/pet/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet/Cachorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/javainsider/pet/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/javainsider/pet/Peixe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet/Peixe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/javainsider/pet/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/javainsider/pet/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +61,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,8 +81,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Animais.executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.App1.executor": "Run",
     "Application.App3.executor": "Run",
     "Application.DiaDaSemana.executor": "Run",
+    "Application.Exemplo.executor": "Run",
     "Application.GrausCelsius.executor": "Run",
     "Application.InputTeclado.executor": "Run",
     "Application.LampadaApp.executor": "Run",
@@ -59,11 +94,15 @@
     "Application.NotaAluno.executor": "Run",
     "Application.Number.executor": "Run",
     "Application.RetanguloArea.executor": "Run",
+    "Application.Sistema.executor": "Run",
     "Application.Soma.executor": "Run",
+    "Application.Strings.executor": "Run",
     "Application.Tabuada.executor": "Debug",
     "Application.ValorX.executor": "Run",
     "Application.VelocidadePermitida.executor": "Run",
+    "Application.app.executor": "Run",
     "Application.app1.executor": "Run",
+    "Application.br.com.javainsider.geometria.App.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -78,13 +117,13 @@
       <recent name="C:\Users\robso\OneDrive\Documentos\Desktop\estudo\Java\pratica\src\br\com\javainsider\account" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Animais">
-    <configuration name="Animais" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.javainsider.pet.Animais" />
+  <component name="RunManager" selected="Application.Exemplo">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.javainsider.person.App" />
       <module name="pratica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.javainsider.pet.*" />
+          <option name="PATTERN" value="br.com.javainsider.person.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.javainsider.app.App3" />
+    <configuration name="App1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.javainsider.pet2.App1" />
       <module name="pratica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.javainsider.app.*" />
+          <option name="PATTERN" value="br.com.javainsider.pet2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,34 +144,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.javainsider.other.Main" />
+    <configuration name="Exemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.javainsider.aula.Exemplo" />
       <module name="pratica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.javainsider.aula.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.javainsider.other.Number" />
+    <configuration name="app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.javainsider.banco.app" />
       <module name="pratica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.javainsider.banco.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.javainsider.app.app1" />
+    <configuration name="br.com.javainsider.geometria.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.javainsider.geometria.App" />
       <module name="pratica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.javainsider.geometria.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Animais" />
-        <item itemvalue="Application.App3" />
-        <item itemvalue="Application.app1" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Number" />
+        <item itemvalue="Application.Exemplo" />
+        <item itemvalue="Application.br.com.javainsider.geometria.App" />
+        <item itemvalue="Application.App1" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.app" />
       </list>
     </recent_temporary>
   </component>
