@@ -1,14 +1,15 @@
 package br.com.javainsider.aula;
 
 public class Exemplo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
-        PersonRecord personRecord = new PersonRecord("Michel", "Freitas", 22);
+        Account conta1 = new Account("1234-5");
 
-        PersonRecord personRecord2 = new PersonRecord(null, "Freitas", 22);
+        conta1.deposito(500);
+        System.out.println(conta1);
 
-        System.out.println(personRecord.toString());
+        conta1.sacar(-100);
+        System.out.println(conta1);
 
-        System.out.println(personRecord.equals(personRecord2));
     }
 }
