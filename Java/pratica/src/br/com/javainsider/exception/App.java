@@ -1,21 +1,27 @@
 package br.com.javainsider.exception;
 
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) {
 
-        Veiculo carro1 = new Veiculo(40);
-        System.out.println(carro1.getVelocidade());
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Acelerando");
-        carro1.acelerar();
-        System.out.println(carro1.getVelocidade());
+        int numero1 = lerNumero(scanner);
+        int numero2 = lerNumero(scanner);
 
-        System.out.println("Acelerando");
-        carro1.acelerar();
-        System.out.println(carro1.getVelocidade());
+        System.out.println("Resposta: " +(numero1 + numero2));
 
-        carro1.acelerar();
-        System.out.println(carro1.getVelocidade());
+    }
 
+    public static int lerNumero(Scanner scanner) {
+        System.out.print("Digite um número: ");
+
+        try {
+            return Integer.parseInt(scanner.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Formato inválido... Adicionando 10");
+            return 10;
+        }
     }
 }
