@@ -9,12 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5fc4483-52bb-4782-ad80-a32be646ca3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/format/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/format/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/format/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/regex/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/regex/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/numeros/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/numeros/Dados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/numeros/Numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/javainsider/regex/Photo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/javainsider/regex/App2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/javainsider/regex/App2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -71,6 +72,7 @@
     "Application.br.com.javainsider.exception.App.executor": "Run",
     "Application.br.com.javainsider.format.App.executor": "Run",
     "Application.br.com.javainsider.geometria.App.executor": "Run",
+    "Application.br.com.javainsider.numeros.App.executor": "Run",
     "Application.br.com.javainsider.regex.App.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -86,7 +88,7 @@
       <recent name="C:\Users\robso\OneDrive\Documentos\Desktop\estudo\Java\pratica\src\br\com\javainsider\account" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App2">
+  <component name="RunManager" selected="Application.br.com.javainsider.numeros.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.javainsider.wrappers.App" />
       <module name="pratica" />
@@ -113,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.javainsider.enums.EnumsApp" />
+    <configuration name="br.com.javainsider.format.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.javainsider.format.App" />
       <module name="pratica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.javainsider.enums.*" />
+          <option name="PATTERN" value="br.com.javainsider.format.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.com.javainsider.format.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.javainsider.format.App" />
+    <configuration name="br.com.javainsider.numeros.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.javainsider.numeros.App" />
       <module name="pratica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.javainsider.format.*" />
+          <option name="PATTERN" value="br.com.javainsider.numeros.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.br.com.javainsider.numeros.App" />
         <item itemvalue="Application.App2" />
         <item itemvalue="Application.br.com.javainsider.regex.App" />
         <item itemvalue="Application.br.com.javainsider.format.App" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.EnumsApp" />
       </list>
     </recent_temporary>
   </component>
